@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { url } from '../pages/place';","map":{"version":3,"sources":["D:/FYP/pages/placeview.js"],"names":["url"],"mappings":"AAAA,SAAQA,GAAR,QAAkB,gBAAlB","sourcesContent":["import {url} from '../pages/place'\r\n"]},"metadata":{},"sourceType":"module"}

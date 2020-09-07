@@ -1,0 +1,106 @@
+
+.layout{
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.content{
+  margin: 24px 16px 0;
+  overflow: initial; 
+}
+
+.site-layout-background {
+  text-align: center;
+  padding: 15px;
+}
+
+.input{
+  border-radius: 20px;
+}
+
+.App-logo{
+  width: 500px;
+  height: 500px;
+}
+
+  /* For Info Form Section */
+
+  .label{
+    margin: 20px;
+  }
+
+
+  .infoform-layout{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid black;
+  }
+ 
+
+
+  .infoform-date{
+     width: 100%; 
+  }  
+
+ 
+
+.ui.text.container{
+
+  max-width: 100% !important;
+}
+.ui.container{
+  width: 100% !important;
+  margin: 0 !important;
+}
+.ui.card > .image > img, .ui.cards > .card > .image > img{
+  height: 300px;
+}
+.ui.card .meta, .ui.cards > .card .meta{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.places-form{
+  padding: 25px;
+}
+
+.recomend-button{
+margin:0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 10px;
+position:relative;
+color: #29a19c;
+
+border: 2px solid #29a19c;
+
+}
+.recomend-button:hover, .recomend-button:focus {
+  color: #40a9ff;
+  background: #fff;
+  border-color: #40a9ff;
+}
+.ant-menu-item.ant-menu-item-only-child:hover {
+  border-bottom: solid 2px #29a19c;
+  animation: ease-in;
+  transition: all 0.3s ease-in-out 0s;
+}
+.ant-menu-item.ant-menu-item-only-child {
+  font-size: 17px;
+  font-weight: 700;
+  background-color: transparent;
+  background: transparent;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+  background: transparent;
+  background-color: transparent;
+}
